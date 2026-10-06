@@ -4,7 +4,7 @@ using namespace std;
 class Item{
     static int count;
     public:
-    static void show();
+    static void show();                      //Class method
 };
 
 int Item:: count=10;
